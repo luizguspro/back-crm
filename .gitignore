@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ambiente
+.env
+
+# Cache e builds
+dist/
+build/
+.tmp/
+.cache/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Sessões (no teu caso tem a pasta sessions/)
+sessions/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
