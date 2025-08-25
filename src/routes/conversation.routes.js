@@ -8,5 +8,7 @@ router.use(authMiddleware);
 router.get('/', conversationController.getAll);
 router.get('/:id/messages', conversationController.getMessages);
 router.post('/:id/messages', conversationController.sendMessage);
+router.put('/:id/read', conversationController.markAsRead);
+router.put('/:id/status', conversationController.updateStatus);
 
 module.exports = router;
